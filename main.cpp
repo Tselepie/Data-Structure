@@ -233,7 +233,7 @@ int main()
 {
     clock_t timer = clock();
 
-    FILE *file = fopen("gutenberg.txt", "r");
+    FILE *file = fopen("a_file.txt", "r");
 
     if(!file)
     {
